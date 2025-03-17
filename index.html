@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">  
+    <script src="script.js"></script>  
+    <title>Basic Caculator</title>
+</head>
+<body>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <!-- <button id="mode-toggle">Toggle Dark Mode</button> -->
+   
+     
+    <div class="calc">
+       <input type="textarea" id="res">
+
+        <br>
+
+        <button class="clr" value="%" onclick="Solve('%')">%</button>
+        <button class="clr" value="/">/</button>
+        <button class="clr" value="C" onclick="Clear()" id="clear">C</button>
+        <button class="clr" onclick="Back()" id="backspace"><img src="backk.ico"></button>
+
+        <br>
+
+        <button class="numclr" value="7" onclick="Solve('7')">7</button>
+        <button class="numclr" value="8" onclick="Solve('8')">8</button>  
+        <button class="numclr" value="9" onclick="Solve('9')">9</button>
+        <button class="clr" value="x" onclick="Solve('*')">x</button>
+
+        <br>
+
+        <button class="numclr" value="4" onclick="Solve('4')">4</button>      
+        <button class="numclr" value="5" onclick="Solve('5')">5</button>
+        <button class="numclr" value="6" onclick="Solve('6')">6</button>
+        <button class="clr" value="-" onclick="Solve('-')">-</button>
+
+        <br>
+
+        <button class="numclr" value="1" onclick="Solve('1')">1</button>
+        <button class="numclr" value="2" onclick="Solve('2')">2</button>
+        <button class="numclr" value="3" onclick="Solve('3')">3</button>
+        <button class="clr" value="+" onclick="Solve('+')">+</button>
+
+        <br>
+
+        <button class="numclr" value="0" onclick="Solve('00')">00</button>
+        <button class="numclr" value="0" onclick="Solve('0')">0</button>
+        <button class="numclr" value="." onclick="Solve('.')">.</button>
+        <button class="clr" value="=s" onclick="Result()">=</button>
+
+    </div>
+
+</body>
+</html>
