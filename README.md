@@ -39,11 +39,11 @@ A simple and responsive calculator built with HTML, CSS, and JavaScript. This pr
 ```
 
 calculator/
-├── [index.html](http://_vscodecontentref_/1)       # Main HTML file
-├── [style.css](http://_vscodecontentref_/2)        # CSS file for styling
-├── [script.js](http://_vscodecontentref_/3)        # JavaScript file for interactivity
-├── LICENSE          # License file
-└── [README.md](http://_vscodecontentref_/4)        # Project documentation
+├── index.html       # Main HTML file
+├── style.css        # CSS file for styling
+├── script.js        # JavaScript file for interactivity
+├── LICENSE            # License file
+└── README.md        # Project documentation
 ```
 
 
